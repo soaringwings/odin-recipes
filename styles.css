@@ -3,6 +3,9 @@ h1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -13,4 +16,21 @@ h2 {
 
 ul li {
     background-color: turquoise;
+    padding: 5px;
+}
+
+ol li {
+    padding: 5px;
+}
+
+img {
+    border: 5px solid black;
+    display: block;
+    /* overrides html width */
+    /* width required to align */
+    /* must set to display block */
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 5px;
+    
 }
